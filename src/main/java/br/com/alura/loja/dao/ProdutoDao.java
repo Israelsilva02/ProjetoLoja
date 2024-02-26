@@ -82,6 +82,7 @@ public class ProdutoDao {
         if (nome != null && !nome.trim().isEmpty()) {
             query.setParameter("nome", nome);
         }
+
         if (preco != null) {
             query.setParameter("preco", preco);
         }
